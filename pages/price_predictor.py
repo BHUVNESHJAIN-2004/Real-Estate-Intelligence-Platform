@@ -29,14 +29,14 @@ if not os.path.exists(MODEL_PATH):
     )
 
 # Debug information
-st.write("Scikit-learn version:", sklearn.__version__)
+# st.write("Scikit-learn version:", sklearn.__version__)
 
-if os.path.exists(MODEL_PATH):
-    st.write(
-        "Downloaded file size:",
-        round(os.path.getsize(MODEL_PATH) / (1024 * 1024), 2),
-        "MB"
-    )
+# if os.path.exists(MODEL_PATH):
+#     st.write(
+#         "Downloaded file size:",
+#         round(os.path.getsize(MODEL_PATH) / (1024 * 1024), 2),
+#         "MB"
+    # )
 
 try:
     with open(MODEL_PATH, "rb") as f:

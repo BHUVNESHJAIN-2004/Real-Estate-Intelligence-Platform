@@ -6,7 +6,8 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-st.set_page_config(page_title="Analytics")
+st.set_page_config(page_title="Analytics0" \
+"")
 
 st.title('Analytics')
 
@@ -24,7 +25,7 @@ group_df = new_df.groupby('sector').mean(numeric_only=True)[['price','price_per_
 st.header('Sector Price per Sqft Geomap')
 fig = px.scatter_mapbox(group_df, lat="latitude", lon="longitude", color="price_per_sqft", size='built_up_area',
                   color_continuous_scale=px.colors.cyclical.IceFire, zoom=10,
-                  mapbox_style="open-street-map",width=1200,height=700,hover_name=group_df.index)
+                  mapbox_style="open-street-map",width=1200,height=700,hover_name=group_df.index, labels={"price_per_sqft": "Price/sqft"})
 
 st.plotly_chart(fig,use_container_width=True)
 

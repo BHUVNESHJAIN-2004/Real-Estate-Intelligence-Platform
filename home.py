@@ -7,7 +7,7 @@ st.set_page_config(
 
 st.write("""
 
-# 🏠 Real Estate Intelligence Platform
+# Real Estate Intelligence Platform
 
 ### Transforming Property Search with Machine Learning and Data Analytics
 
@@ -15,7 +15,7 @@ Welcome to the Real Estate Intelligence Platform, an end-to-end machine learning
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This platform combines Real Estate Data Collection, Machine Learning, Data Analytics, and Recommendation Systems to provide users with comprehensive property insights.
 
@@ -25,9 +25,9 @@ Whether you are looking to buy a property, compare localities, analyze market tr
 
 ---
 
-## 📊 Modules Available
+## Modules Available
 
-### 🔹 Property Price Prediction
+### Property Price Prediction
 
 The Price Prediction module uses machine learning algorithms trained on historical property data to estimate the market value of a property.
 
@@ -45,7 +45,7 @@ Based on these inputs, the model predicts an estimated property price using lear
 
 ---
 
-### 🔹 Real Estate Analytics Dashboard
+### Real Estate Analytics Dashboard
 
 The Analytics module provides detailed visualizations and insights about the city's real estate market.
 
@@ -64,7 +64,7 @@ These visualizations help users understand market behavior and identify potentia
 
 ---
 
-### 🔹 Smart Property Recommendation System
+### Smart Property Recommendation System
 
 The Recommendation System helps users discover properties similar to a selected property.
 
@@ -80,7 +80,7 @@ Using similarity-based algorithms, the system recommends properties that closely
 
 ---
 
-## 🧠 Machine Learning Workflow
+## Machine Learning Workflow
 
 The project follows a complete Machine Learning lifecycle:
 
@@ -110,7 +110,7 @@ The final models are deployed through an interactive Streamlit web application.
 
 ---
 
-## 📍 Sector-Based Market Intelligence
+## Sector-Based Market Intelligence
 
 The platform divides the city into sectors and localities to provide location-specific analysis.
 
@@ -126,25 +126,25 @@ This enables more informed decisions compared to relying solely on city-wide ave
 
 ---
 
-## 🎯 Why Use This Platform?
+## Why Use This Platform?
 
-✅ Accurate Property Price Prediction
+->Accurate Property Price Prediction
 
-✅ Data-Driven Decision Making
+-> Data-Driven Decision Making
 
-✅ Sector-Level Market Insights
+-> Sector-Level Market Insights
 
-✅ Intelligent Property Recommendations
+-> Intelligent Property Recommendations
 
-✅ Interactive Visual Analytics
+-> Interactive Visual Analytics
 
-✅ User-Friendly Interface
+-> User-Friendly Interface
 
-✅ End-to-End Machine Learning Integration
+-> End-to-End Machine Learning Integration
 
 ---
 
-## 🔍 How to Use
+## How to Use
 
 ### Step 1
 
@@ -168,7 +168,7 @@ Compare options and make informed real estate decisions.
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 • Python
 
